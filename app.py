@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import scipy.cluster.hierarchy as sch
+from sklearn.preprocessing import StandardScaler
 from matplotlib import pyplot as plt
 import seaborn as sns
 
